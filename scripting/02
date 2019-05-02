@@ -1,0 +1,10 @@
+#1/bin/bash
+echo "what is the user you want to delete?"
+read myuser
+if [ -z "$myuser" ]; then
+{
+	echo "write a username!!"
+	read myuser
+}
+fi
+deluser "$myuser"

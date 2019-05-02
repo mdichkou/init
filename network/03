@@ -1,0 +1,1 @@
+ifconfig en1 ether | sed '1d' | cut -d ' ' -f2

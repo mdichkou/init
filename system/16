@@ -1,0 +1,1 @@
+go to /etc/crontab and write mm hh jj MMM JJJ tâche >> /mon/répertoire/test.txt
